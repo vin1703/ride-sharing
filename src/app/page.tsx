@@ -33,7 +33,7 @@ function HomePage() {
       {/* Features Section */}
       <div className="bg-gray-800 py-12">
         <div className="max-w-6xl mx-auto text-center">
-          <h2 className="text-3xl font-bold mb-8">Why Choose Us?</h2>
+          <h2 className="text-3xl font-bold mb-8">Why choose?</h2>
           <div className="grid md:grid-cols-3 gap-8">
             <div>
               <img
