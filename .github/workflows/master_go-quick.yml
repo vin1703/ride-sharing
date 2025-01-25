@@ -30,7 +30,7 @@ jobs:
       uses: docker/build-push-action@v3
       with:
         push: true
-        tags: index.docker.io/${{ secrets.AzureAppService_ContainerUsername_8fe0df3972c14d908284399a9fc8af75 }}/vinay1703/go-quick:${{ github.sha }}
+        tags: index.docker.io/vinay1703/go-quick:${{ github.sha }}
         file: ./Dockerfile
 
   deploy:
