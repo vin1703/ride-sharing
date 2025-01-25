@@ -48,4 +48,4 @@ jobs:
         app-name: 'go-quick'
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_1f81b80b06a04e80b75dc8780d7f0576 }}
-        images: 'index.docker.io/${{ secrets.AzureAppService_ContainerUsername_8fe0df3972c14d908284399a9fc8af75 }}/vinay1703/go-quick:${{ github.sha }}'
+        images: 'index.docker.io/vinay1703/go-quick:${{ github.sha }}'
